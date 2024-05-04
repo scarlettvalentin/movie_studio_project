@@ -73,7 +73,7 @@ Additional analysis could further optimize our profits for the acquisition of a 
 
 
 # For More Information
-See the full analysis in the [Jupyter Notebook](/notebook.ipynb/) or review this [presentation](/presentation.pdf/).
+See the full analysis in the [Jupyter Notebook](/notebook.ipynb/) or review this [presentation](/presentation.pdf/). <br>
 For questions, please feel free to contact me on [LinkedIn](https://www.linkedin.com/in/scarlett-valentin/). 
 
 
