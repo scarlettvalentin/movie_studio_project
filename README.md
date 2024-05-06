@@ -7,9 +7,9 @@ Author: [Scarlett Valentin](https://www.linkedin.com/in/scarlett-valentin/)
 Our company has decided to create a **new movie studio**. This is a new venture for the company and our first introduction to the film industry. I will be exploring what types of films are currently doing the best at the box office. My focus will be to make suggestions for the first film we will produce to make it as successful as possible. I will be focusing on **movie profit** to determine the success of a movie, which will be calculated by deducting the movie budget from the worldwide gross.
 
 In order to help decide what types of films to create, I investigate the following 3 business questions:
-1. What **genre** movie would produce the most profits?
-2. What **director** would produce the most profits?
-3. Which **release month** would produce the most profits?
+1. What **genre** movie would produce the greatest profits?
+2. What **director** would produce the greatest profits?
+3. Which **release month** would produce the greatest profits?
 
 # Data Understanding
 I use 2 datasets in this notebook.
@@ -20,7 +20,7 @@ I use 2 datasets in this notebook.
 After completing an overview of each of the datasets, I clean the data to prepare it for analysis. I then use SQL Query to merge the two cleaned dataframes.
 Cleaning The Numbers:
 1. I must convert columns `production_budget`,  `domestic_gross` and `worldwide_gross` to type *int* in order to use aggregate functions.
-2. I then create a `profit` column, which takes the `worldwide_gross` minus the `production_budget` column. This will help me determine success of a movie.
+2. I then create a `profit` column, which takes the `worldwide_gross` column minus the `production_budget` column. This will help me determine success of a movie.
 3. Then I create a `release_month` column that takes just the month in the `release_date` column. This will help me determine the most successful month to release a movie.
 
 Cleaning IMDB:
@@ -87,6 +87,6 @@ For questions, please feel free to contact me on [LinkedIn](https://www.linkedin
 
 ├── images
 ├── README.md
-├── presentation.pdf
-└── notebook.ipynb
+├── notebook.ipynb
+└── presentation.pdf
 ```
